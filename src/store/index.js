@@ -16,7 +16,7 @@ const counterSlice = createSlice({
         },
         toggleCounter(state){
             state.showCounter = !state.showCounter;
-        }
+        },
     }
 });
 const authSlice = createSlice({
